@@ -1,51 +1,60 @@
-# 🚖 Uber Trip Analysis Dashboard & Exploratory Data Analysis
+# Uber Trip Analysis Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
-![Python](https://img.shields.io/badge/Python-EDA-blue?style=for-the-badge&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
-![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?style=for-the-badge&logo=plotly)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<p align="center">
+
+![Power BI](https://img.shields.io/badge/POWER%20BI-1F1F1F?style=for-the-badge&logo=powerbi&logoColor=white)
+![Dashboard](https://img.shields.io/badge/DASHBOARD-1F1F1F?style=for-the-badge)
+![Python](https://img.shields.io/badge/PYTHON-1F1F1F?style=for-the-badge&logo=python&logoColor=white)
+![EDA](https://img.shields.io/badge/EDA-1F1F1F?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/PANDAS-1F1F1F?style=for-the-badge&logo=pandas&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/DATA%20ANALYSIS-1F1F1F?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/PLOTLY-1F1F1F?style=for-the-badge&logo=plotly&logoColor=white)
+![Interactive Charts](https://img.shields.io/badge/INTERACTIVE%20CHARTS-1F1F1F?style=for-the-badge)
+![MIT License](https://img.shields.io/badge/LICENSE-MIT-1F1F1F?style=for-the-badge)
+
+</p>
 
 ---
 
-## 📌 Project Overview
+## Overview
 
-This project presents an end-to-end **Uber Trip Analysis** using **Python**, **Exploratory Data Analysis (EDA)**, and **Microsoft Power BI**.
+This project presents an end-to-end business intelligence solution for analyzing Uber trip data using **Python**, **Exploratory Data Analysis (EDA)**, and **Microsoft Power BI**.
 
-The objective is to transform raw trip data into meaningful business insights by performing data cleaning, feature engineering, statistical analysis, interactive visualizations, and dashboard development.
+The objective is to transform raw transportation data into actionable business insights through data preprocessing, feature engineering, statistical analysis, interactive visualizations, and dashboard development.
+
+The project combines Python-based analytics with an interactive Power BI dashboard to provide insights into booking trends, revenue, customer preferences, vehicle performance, payment behavior, and location-based demand.
 
 ---
 
-## 🎯 Objectives
+## Dashboard Preview
 
+> Replace the image below with your dashboard screenshot.
+
+<p align="center">
+<img src="Images/Dashboard.png" width="100%">
+</p>
+
+---
+
+## Project Objectives
+
+- Understand the structure and quality of the dataset
 - Perform data cleaning and preprocessing
-- Explore trip booking patterns
-- Analyze fare and distance distribution
-- Study payment preferences
-- Identify popular pickup and drop-off locations
-- Discover peak booking hours
-- Build an interactive Power BI Dashboard
-- Generate actionable business insights
+- Engineer meaningful analytical features
+- Analyze booking trends and ride patterns
+- Explore fare, distance, and trip duration distributions
+- Identify high-demand pickup and drop-off locations
+- Study payment preferences and vehicle performance
+- Build an interactive Power BI dashboard
+- Generate business insights and recommendations
 
 ---
 
-# 📊 Dashboard Preview
+## Dataset
 
-> *(Add your dashboard screenshot here)*
+### Uber Trip Details
 
-Example:
-
-![Dashboard](images/dashboard.png)
-
----
-
-# 📁 Dataset
-
-The project consists of two datasets:
-
-### 1️⃣ Uber Trip Details
-
-Contains trip-level information including:
+The primary dataset contains detailed ride information including:
 
 - Trip ID
 - Pickup Time
@@ -59,119 +68,153 @@ Contains trip-level information including:
 - Vehicle Type
 - Payment Type
 
----
+**Records:** 103,728
 
-### 2️⃣ Location Table
-
-Maps location IDs to their corresponding location names and cities.
+**Features:** 11
 
 ---
 
-# 🛠 Tech Stack
+### Location Table
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Plotly
-- Power BI
-- DAX
+Maps numerical location IDs to corresponding location names and cities.
+
+**Records:** 265
+
+**Features:** 3
 
 ---
 
-# 📈 Exploratory Data Analysis
+## Exploratory Data Analysis
 
-The notebook includes:
+The EDA notebook includes:
 
-- Data Cleaning
+- Data Quality Assessment
 - Missing Value Analysis
+- Duplicate Detection
 - Feature Engineering
 - Univariate Analysis
 - Bivariate Analysis
 - Correlation Analysis
 - Time Series Analysis
-- Location Analysis
+- Location-Based Analysis
+- Statistical Summary
 - Business Insights
 - Recommendations
 
 ---
 
-# 📊 Power BI Dashboard Features
+## Power BI Dashboard Features
 
-✔ Executive KPI Cards
-
-✔ Dynamic Slicers
-
-✔ Drill Through Navigation
-
-✔ Interactive Filters
-
-✔ Vehicle Analysis
-
-✔ Payment Analysis
-
-✔ Booking Trends
-
-✔ Location Analysis
-
-✔ Revenue Analysis
+- Executive KPI Cards
+- Dynamic Date & City Filters
+- Drill-Through Navigation
+- Interactive Visualizations
+- Booking Trend Analysis
+- Revenue Analysis
+- Vehicle Performance Analysis
+- Payment Method Analysis
+- Pickup & Drop-off Location Analysis
+- Time-Based Analysis
+- Dynamic DAX Measures
 
 ---
 
-# 📌 Key Insights
+## Technology Stack
 
-- Identified the most preferred Uber vehicle.
-- Analyzed booking distribution across payment methods.
-- Evaluated revenue generated by different vehicle categories.
-- Identified peak booking hours.
-- Compared trip distance and fare patterns.
-- Studied pickup and drop-off location demand.
-- Evaluated surge pricing trends.
+| Category | Technologies |
+|----------|--------------|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib, Seaborn, Plotly |
+| Business Intelligence | Microsoft Power BI |
+| Data Modeling | DAX |
+| Data Source | Excel |
 
 ---
 
-# 📂 Repository Structure
+## Repository Structure
 
-```
-Uber-Trip-Analysis/
+```text
+uber-trip-analysis-dashboard/
 │
 ├── Data/
 │   ├── Uber Trip Details.xlsx
 │   └── Location Table.xlsx
 │
-├── PowerBI/
-│   └── Uber Trip Analysis.pbix
-│
 ├── Notebook/
 │   └── Uber_Trip_Analysis_EDA.ipynb
 │
+├── PowerBI/
+│   └── Uber Trip Analysis.pbix
+│
 ├── Images/
-│   └── Dashboard.png
+│   ├── Dashboard.png
+│   ├── Overview.png
+│   ├── Time Analysis.png
+│   └── Details.png
 │
 ├── README.md
+├── requirements.txt
 └── LICENSE
 ```
 
 ---
 
-# 🚀 Future Improvements
+## Key Business Insights
 
-- Machine Learning for demand prediction
-- Revenue forecasting
-- Driver allocation optimization
-- Customer segmentation
-- Interactive web dashboard using Streamlit
+- Identified the most preferred vehicle category.
+- Analyzed booking distribution across payment methods.
+- Evaluated revenue contribution by vehicle type.
+- Identified peak booking hours and daily demand patterns.
+- Analyzed trip distance and fare relationships.
+- Studied surge pricing behavior.
+- Identified the busiest pickup and drop-off locations.
+- Compared weekday and weekend ride patterns.
 
 ---
 
-# 👩‍💻 Author
+## Future Improvements
+
+- Demand Forecasting using Machine Learning
+- Revenue Prediction Models
+- Driver Allocation Optimization
+- Customer Segmentation
+- Interactive Streamlit Dashboard
+- Real-Time Data Integration
+
+---
+
+## How to Run
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/gaathapatel07/uber-trip-analysis-dashboard.git
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Open
+
+- `Notebook/Uber_Trip_Analysis_EDA.ipynb` for the Python analysis.
+- `PowerBI/Uber Trip Analysis.pbix` using Microsoft Power BI Desktop.
+
+---
+
+## Author
 
 **Gaatha Patel**
 
-- GitHub: https://github.com/gaathapatel07
-- LinkedIn: *(Add your LinkedIn URL)*
+GitHub: https://github.com/gaathapatel07
+
+LinkedIn: *Add your LinkedIn profile*
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+## License
+
+This project is licensed under the MIT License.
